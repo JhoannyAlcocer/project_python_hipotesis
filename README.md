@@ -1,4 +1,5 @@
-🚕 Taxi Data Analysis – Python & SQL (TripleTen Sprint 8)
+🚕 Taxi Data Analysis – Python & SQL
+
 📌 Descripción
 
 Este proyecto combina consultas SQL con análisis exploratorio en Python para estudiar la actividad de taxis en Chicago.
@@ -103,9 +104,13 @@ Top 10 barrios por finalizaciones de viaje:
 
 Resultado de la prueba de hipótesis:
 
-p-value: _______
+Hipotesis: "La duración promedio de los viajes desde el Loop hasta el Aeropuerto Internacional O'Hare cambia los sábados lluviosos"
 
-Conclusión: (Se rechaza / No se rechaza) la hipótesis nula.
+Dado que los datos provistos no tienen registros de las condiciones climaticas los dias sabados, se propone una nueva hipotesis: 
+
+"¿La duración promedio de los viajes cambia dependiendo de si las condiciones climáticas son “Good” o “Bad”?"
+
+Conclusión: La duración promedio de los viajes desde el Loop hasta el Aeropuerto Internacional O’Hare cambia cuando llueve.
 
 🙋‍♀️ Autora
 
